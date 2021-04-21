@@ -29,7 +29,7 @@
     function penis1() {
       var Z = document.getElementById("Z").value;
       var K = document.getElementById("K").value;
-      var mnozenie = (Math.round(Z * Math.cos(K * (Math.PI/180))) * 100);
+      var mnozenie = (Math.round((Z * Math.cos(K * (Math.PI/180))) * 100)/100);
       document.getElementById("wynik").innerHTML = mnozenie;
 	  
 	        var huj = (Z * Math.sin(K * (Math.PI/180)));
