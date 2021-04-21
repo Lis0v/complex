@@ -7,24 +7,42 @@
       
       <form action="/action_page.php">
         
-  <label for="a">Z:</label><br>
-  <input type="text" id="a" name="Część rzeczywista"><br>
+  <label for="a">Część rzeczywista:</label><br>
+  <input type="text" id="a" name="a"><br>
         
-          <label for="b">Z:</label><br>
-  <input type="text" id="b" name="Część urojona"><br>
+          <label for="b">Część urojona:</label><br>
+  <input type="text" id="b" name="b"><br>
         
           <label for="Z">Z:</label><br>
   <input type="text" id="Z" name="Z"><br>
         
-        <label for="Kąt">Kąt:</label><br>
-  <input type="text" id="Kąt" name="Kąt"><br>
+        <label for="K">Kąt:</label><br>
+  <input type="text" id="K" name="K"><br>
           <input type="button" onclick="penis1()" value="Obliczej mje to">
         
+		
+		<p id="wynik"></p>
 </form>
       
       <script>
-      function penis1(Z, a)
-        return Z*Math.sin(a)
+	  var ax
+document.getElementById("a").innerHTML = a;
+
+	  var bx
+document.getElementById("b").innerHTML = b;
+
+	  var Zx
+document.getElementById("Z").innerHTML = Z;
+
+	  var Kx
+document.getElementById("K").innerHTML = K;
+	  
+var wynik = penis1(Z, K);
+document.getElementById("wynik").innerHTML = wynik;
+
+function penis1(Z, K) {
+  return Z * K;
+}
       </script>
       
     </body>
