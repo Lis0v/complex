@@ -7,6 +7,11 @@ background: rgb(0,13,24);
 background: linear-gradient(90deg, rgba(0,13,24,1) 0%, rgba(107,196,185,1) 100%); 
 color: white;		
 		}
+		
+		input.dikers {
+            width: 40px;
+            height: 40px;
+        }
 	</style>
 </head>
 <body>
@@ -14,12 +19,12 @@ color: white;
     <form onsubmit="return false">
 
 
-                <label for="Z">Z:</label><br>
-        <input type="text" id="Z" name="Z"><br>
+                <label for="Z" class="dikers">Z:</label><br>
+        <input type="text" id="Z" name="Z" class="dikers"><br>
       
-              <label for="K">Kąt (w stopniach):</label><br>
-        <input type="text" id="K" name="K"><br>
-                <input type="submit" onclick="penis1()" value="Obliczej mje to">
+              <label for="K" class="dikers">Kąt (w stopniach):</label><br>
+        <input type="text" id="K" name="K" class="dikers"><br>
+                <input type="submit" onclick="penis1()" value="Obliczej mje to" class="dikers">
       
     <a id="wynik"></a> + j<a id="huj"></a>
       </form>
