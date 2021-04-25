@@ -24,6 +24,20 @@ color: white;
       
     <a id="wynik11"></a> + j<a id="wynik12"></a>
       </form>
+	    
+	    
+	        <form onsubmit="return false">
+
+
+                <label for="a"">Część rzeczywista:</label><br>
+        <input type="text" id="a" name="a""><br>
+      
+              <label for="b">Część urojona:</label><br>
+        <input type="text" id="b" name="b"><br>
+                <input type="submit" onclick="penis2()" value="Obliczej mje to">
+      
+    <a id="wynik21"></a> + ej<a id="wynik22"></a>
+      </form>
 </body>
 
 
@@ -36,6 +50,17 @@ color: white;
 	  
 	        var huj12 = (Math.round((Z * Math.sin(K * (Math.PI/180))) * 100) / 100);
       document.getElementById("wynik12").innerHTML = huj12;
+    }
+	
+	
+	    function penis2() {
+      var a = document.getElementById("a").value;
+      var b = document.getElementById("b").value;
+      var huj21 = Math.sqrt((a ** 2) + (b ** 2));
+      document.getElementById("wynik21").innerHTML = huj21;
+	  
+	        var huj22 = str.sup(Math.atan(b / a););
+      document.getElementById("wynik22").innerHTML = huj22;
     }
 </script>
 
