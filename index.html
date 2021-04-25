@@ -42,7 +42,7 @@ color: white;
 			<svg width = "600" height = "600">
             <line x1 = "0" y1 = "300" x2 = "600" y2 = "300" style = "stroke:white;stroke-width:1"></line>
             <line x1 = "300" y1 = "0" x2 = "300" y2 = "600" style = "stroke:white;stroke-width:1"></line>
-            <line id = "penis2" x1 = "300" y1 = "300" x2 = "" y2 = "" style = "stroke:red;stroke-width:1"></line>
+            <line id = "penis2" x1 = "" y1 = "" x2 = "300" y2 = "300" style = "stroke:red;stroke-width:1"></line>
         </svg>
 			
 </body>
@@ -64,10 +64,10 @@ color: white;
       var a = document.getElementById("a").value;
       var b = document.getElementById("b").value;
   
-      var x2 = a;
-      var y2 = b;
-      document.getElementById("penis2").setAttribute("x2", x2);
-      document.getElementById("penis2").setAttribute("y2", y2);
+      var x1 = a;
+      var y1 = b;
+      document.getElementById("penis2").setAttribute("x1", x1);
+      document.getElementById("penis2").setAttribute("y1", y1);
 		    
       var huj21 = Math.round((Math.sqrt(a ** 2 + b ** 2)) * 100) / 100;
       document.getElementById("wynik21").innerHTML = huj21;
