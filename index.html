@@ -8,13 +8,25 @@
   width: 50%;
   text-align: center;
   padding: 10px;
-  transform: scale(2);
 }
 		body {
 background: rgb(0,13,24);
 background: linear-gradient(90deg, rgba(0,13,24,1) 0%, rgba(107,196,185,1) 100%); 
 color: white;		
 		}
+		
+		@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
 		
 	</style>
 </head>
