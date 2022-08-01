@@ -7,7 +7,7 @@ body {
 main {
     text-align: center;
 }
-input[type="text"], textarea {
+input[type="text"], .button, textarea {
     color: #e6e6e6;
     background-color: #262626; 
     border: #262626;
