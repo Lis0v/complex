@@ -11,11 +11,12 @@ complex
 </head>
 <body class="ppp">
 
+    <main>
+
     <form onsubmit="return false">
 
-
                 <label for="Z" >Modulus:</label><br>
-        <input type="text"  id="Z" name="Z""><br>
+        <input type="text"  id="Z" name="Z"><br>
       
               <label for="K" >Angle (deg):</label><br>
         <input type="text"  id="K" name="K"><br>
@@ -36,9 +37,11 @@ complex
         <input type="text"  id="b" name="b"><br>
                 <input type="submit"  onclick="penis2()" value="Calculate">
       
-			<a  id="wynik21"></a>e<sup> j<a  id="wynik22"></a>deg</sup>
+			<a  id="wynik21"></a>e<sup> j<a  id="wynik22"></a><span>&#176;</span></sup>
       </form>
-			
+		
+    </main>
+
 </body>
 
 <script src="math.js">
